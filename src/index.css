@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(255, 224, 195),
+    rgb(255, 152, 9)
+  ) !important;
+}
+.nav-link {
+  color: black !important;
+}
+.navbar-brand {
+  color: black !important;
+}
+h1 {
+  font-size: 18px !important;
+  text-align: left !important;
+  color: black !important;
+}
+.img-fluid {
+  height: 200px !important;
+  border-radius: 15%;
+}
+.bigimg {
+  height: 300px !important;
+  border-radius: 15%;
+}
+.bigimg2 {
+  height: 400px !important;
+  width: 90% !important;
+  border-radius: 50%;
+}
+p {
+  text-align: left !important;
+}
+h2 {
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+.slides {
+  position: relative;
+}
+.slides .slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+}
+.slides .slick-prev {
+  left: 30% !important;
+  z-index: 1;
+}
+.slides .slick-next {
+  right: 30% !important;
+  z-index: 1;
+}
+.main-home {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(253, 247, 241, 0.8),
+    rgba(255, 183, 83, 0.8)
+  ) !important;
+  border-radius: 14% !important;
+}
+.main-des {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(253, 247, 241, 0.8),
+    rgba(255, 183, 83, 0.8)
+  ) !important;
+  border-radius: 5% !important;
+}
+.main-des1 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(253, 247, 241, 0.8),
+    rgba(255, 183, 83, 0.8)
+  ) !important;
+  border-radius: 20% !important;
+}
+.main-des2 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(255, 177, 177),
+    rgb(255, 0, 0)
+  ) !important;
+}
+.main-des3 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(121, 95, 95, 0.808),
+    rgba(121, 0, 0, 0.808)
+  ) !important;
+}
+.main-cart {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(253, 247, 241, 0.8),
+    rgba(255, 183, 83, 0.8)
+  ) !important;
+  border-radius: 25% !important;
+}
+.main-check {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(253, 247, 241, 0.8),
+    rgba(255, 183, 83, 0.8)
+  ) !important;
+}
+.main-invoice {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(253, 247, 241, 0.8),
+    rgba(255, 183, 83, 0.8)
+  ) !important;
+}
+
+.color-content {
+  margin-top: 1.2rem;
+  margin-left: 6rem;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+.color {
+  width: 35px;
+  height: 35px;
+  background: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.color-black {
+  background-color: #242424;
+}
+.color-blue {
+  background-color: #085ea0;
+}
+.color-yellow {
+  background-color: #c0b50d;
+}
+.color-red {
+  background-color: #8b0516;
+}
+.color-white {
+  background-color: #ededed;
+}
+.color:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.active-color {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.color-groups {
+  padding: 1rem 0;
+  display: flex;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  .color-groups {
+    display: flex;
+    justify-content: center;
+  }
+  .color:last-child {
+    margin-right: 0;
+  }
+}
