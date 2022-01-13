@@ -7,7 +7,7 @@ const Product = ({ product }) => {
     <div className="col-md-3 m-3 card p-2 text-left main-home">
       <div>
         <Link to={`product/${product.id}`}>
-          <img src={product.image1} className="img-fluid" alt="Main" />
+          <img style={{width : "60px"}} src={product.image1} className="img-fluid" alt="Main" />
           <h1>{product.name}</h1>
           <Rating
             style={{ color: "orange" }}

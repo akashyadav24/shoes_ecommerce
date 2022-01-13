@@ -93,6 +93,7 @@ const Homescreen = () => {
       <div className="row justify-content-center" id={"shop"}>
         <h2>Shop</h2>
         {products.map((product) => {
+          
           return <Product product={product} />;
         })}
       </div>
