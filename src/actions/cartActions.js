@@ -46,3 +46,4 @@ export const deleteAllItem = () => (dispatch, getState) => {
     JSON.stringify(getState().cartReducer.cartItems)
   );
 };
+
