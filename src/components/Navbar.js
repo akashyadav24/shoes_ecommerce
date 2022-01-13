@@ -1,8 +1,10 @@
 import React from "react";
 import { useSelector } from "react-redux";
+
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Badge from "@mui/material/Badge";
 import { AppBar, Grid, IconButton } from "@mui/material";
+
 const Navbar = () => {
   const cartreducer = useSelector((state) => state.cartReducer);
 
@@ -15,14 +17,13 @@ const Navbar = () => {
 
   return (
     <div className="Navdiv" >
-      <AppBar position="static" className="navbar navbar-expand-lg">
+      <AppBar position="static" className="apppbar navbar navbar-expand-lg">
         <Grid
           container
           direction="row"
           justifyContent="space-between"
           alignItems="center"
-          className="navbar-nav "
-          
+          className="navbar-nav "        
         >
           <Grid item className="nav-item">
             <a className="navbar-brand" href="/">

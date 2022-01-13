@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Rating from "react-rating";
+import './Homescreen.css';
 
 const Homescreen = () => {
   const settings = {
@@ -27,16 +28,16 @@ const Homescreen = () => {
       <Slider {...settings}>
         {products.map((product) => {
           return (
-            <div>
-              <div className="row">
-                <div className="col-md-12 ">
-                  <div className="card p-2 m-2 main-des1">
+            <div className="Homescreen-div" >
+              <div className="row Slider-row">
+                <div className="col-md-12 slider-main">
+                  <div className="card p-2 m-2 slider-cards">
                     <div className="row">
                       <div className="col-md-4 ">
-                        <div className="mt-5">
+                        <div className="mt-5 product-name"  >
                           <h2>{product.name}</h2>
                         </div>
-                        <div className="mt-5">
+                        <div className="mt-5 Product-description ">
                           <h1>{product.description}</h1>
                         </div>
                       </div>
@@ -61,7 +62,6 @@ const Homescreen = () => {
                           <div className="color-groups ">
                             <div className="color color-white active-color"></div>
                             <div className="color color-black"></div>
-
                             <div className="color color-blue"></div>
                             <div className="color color-red"></div>
                           </div>
